@@ -4,6 +4,8 @@ Client connects, sends metadata, and starts receiving chunks.
 Each chunk has a checksum to detect corruption.
 If corruption is detected, the client requests a retransmission.
 Once all chunks are received and verified, the file is reassembled, and "Transfer Successful" is printed.
+The server prints the checksum of each chunk when sending.
+The client prints both the received and computed checksum for validation.
 # Example Usage
 ## Start the server:
 python server.py
