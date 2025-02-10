@@ -1,1 +1,6 @@
-jwnikw
+#Running the Code
+##Start the server:
+1. python server.py
+##Start the client:
+2. python client.py
+###The server will listen for incoming connections, and the client will connect to the server to receive the file.
